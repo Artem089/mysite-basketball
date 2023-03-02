@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tarif.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <title>Black-Panther</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar py-3 navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-end" href="index.html">
+                    <img src="img/Logo-image.png" class="d-block">
+                    <img src="img/Logo-text.png" class="d-none d-md-block">
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ol
+                        class="navbar-nav mx-auto mx-lg-0 ms-lg-auto d-flex align-items-center text-center align-items-lg-end flex-column">
+                        <ul class="navbar-nav justify-content-center mb-3 pe-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">8 (900) 123 45-67</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-danger px-5 text-white mx-4 modal_okno" href="#modal">ОСТАВИТЬ ЗАЯВКУ</a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center justify-content-center">
+                                <a href="#" class="nav-link px-3 px-lg-2"><img src="./img/YouTube.png" alt=""></a>
+                                <a href="#" class="nav-link px-3 px-lg-2"><img src="./img/Tg.png" alt=""></a>
+                                <a href="#" class="nav-link px-3 px-lg-2"><img src="./img/Wk.png" alt=""></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav menu-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">О клубе</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Лагерь</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tarif.html">Тарифы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pageCompetention.html">Соревнования</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="news.html">Новости</a>
+                            </li>
+                        </ul>
+                    </ol>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h1 class="fs-4 mb-0 d-flex justify-content-between">Пожалуйста, введите Ваши контактные данные для связи.<span class="close">&times;</span></h1>
+            <form>
+              <div class="form-group py-3">
+                <input type="name" class="form-control" placeholder="Ваш номер телефона" required>
+              </div>
+              <div class="form-group py-3">
+                <input type="name" class="form-control" placeholder="Ваше имя" required>
+              </div>
+              <div class="">
+                <p class="fs-5">Нажимая кнопку "отправить заявку"
+                  Вы автоматически соглашаетесь с политикой конфиденциальности</p>
+              </div>
+              <button type="submit" class="btn btn-danger btn-block">Oтправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container info_blok">
+        <div class="">
+            <a class="mx-2 text-decoration-none" href="index.html">Главная</a>/<a class="mx-2 text-decoration-none"
+                href="tarif.html">Тарифы</a>/<a class="mx-2 text-decoration-none" href="pageVologda.html">Москва</a>
+        </div>
+        <div class="">
+            <h2 class="py-4">РАСПИСАНИЕ ЗАНЯТИЙ В МОСКВЕ</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed fw-bold fs-4" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h2>Дворец-спорта Москва</h2>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body fs-5">
+                            <b>Адрес:</b> ул. Маршала Конева, 2В, Москва.<br>
+                            <b>Тренер:</b> Шарапов А.А.<br>
+                            <br>
+                            <b>Группа № 1</b>
+                            Возраст: 11 лет и младше<br>
+                            Вторник: с 18:00 до 19:00<br>
+                            Четверг: с 18:00 до 19:00<br>
+                            Воскресенье: с 17:00 до 18:00<br>
+                            <br>
+                            <br>
+                            <b>Группа № 2</b>
+                            Возраст: 12 и старше<br>
+                            Вторник: с 19:00 до 20:00<br>
+                            Четверг: с 19:00 до 20:00<br>
+                            Воскресенье: с 18:00 до 19:00
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron" style="background-image: url('img/Мяч.png');">
+        <div class="d-flex justify-content-center blok_tarif">
+            <img class="py-5 img-fluid" src="img/Тарифы.png" alt="">
+        </div>
+    </div>
+
+    <div class="container-fluid bg-black">
+        <div class="container pt-4">
+          <h1 class="text-white py-4">ПЕРВОЕ ЗАНЯТИЕ БЕСПЛАТНО!</h1>
+          <div class="row">
+            <div class="col-md-6 text-center d-flex align-items-end">
+              <img src="img/black_men.png" class="img-fluid">
+            </div>
+            <div class="col-md-6 p-4">
+              <div class="forma bg-white p-4">
+                <h1 class="fs-6">Пожалуйста, введите Ваши контактные данные для связи.</h1>
+                <form>
+                  <div class="form-group py-2">
+                  <input type="name" class="form-control" placeholder="Ваш номер телефона" required>
+                  </div>
+                  <div class="form-group py-2">
+                    <input type="name" class="form-control" placeholder="Ваше имя" required>
+                  </div>
+                  <div class="py-2">
+                    <p class="fs-6 p-0">Нажимая кнопку "отправить заявку"
+                      Вы автоматически соглашаетесь с политикой конфиденциальности</p>
+                  </div>
+                  <button type="submit" class="btn btn-danger btn-block py-1">Oтправить заявку</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="py-5">
+        <div class="container">
+          <div class="row podval">
+            <div class="col-md-3 mb-5">
+              <img src="img/Logo_down.png" alt="">
+              <div>
+                <a href=""><img src="img/Tg.png" class="img-fluid mx-1 my-2"></a>
+                <a href=""><img src="img/Wk.png" class="img-fluid mx-1 my-2"></a>
+                <a href=""><img src="img/YouTube.png" class="img-fluid mx-1 my-2"></a>
+              </div>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h2 class="text-uppercase font-weight-bold">Главная</h2>
+              <div class="d-flex flex-column">
+                <a class="my-1 text-decoration-none text-black" href="club.html">О клубе</a>
+                <a class="my-1 text-decoration-none text-black" href="news.html">Новости</a>
+                <a class="my-1 text-decoration-none text-black" href="pageCompetention.html">Соревнования</a>
+              </div>
+    
+            </div>
+            <div class="col-md-3 mb-5">
+              <h2 class="text-uppercase font-weight-bold">Тренировки</h2>
+              <div class="d-flex flex-column">
+                <p class="my-1 p-0 fs-6 text-black">Для детей от 3-х до 6-ти лет</p>
+                <p class="my-1 p-0 fs-6 text-black">Для школьников от 6-ти до 17-ти лет</p>
+                <p class="my-1 p-0 fs-6 text-black">Для взрослых 18+</p>
+              </div>
+            </div>
+    
+            <div class="col-md-3 mb-5">
+              <h2 class="text-uppercase font-weight-bold">Контакты</h2>
+              <div class="d-flex flex-column ">
+                <p class="my-1 p-0 fs-6 text-black">8 (900) 123 45-67</p>
+                <p class="my-1 p-0 fs-6 text-black">8 (900) 123 45-67</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-center text-black p-0">&copy; 2022 ООО Баскетбольный Клуб «Black - Panther»</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    
+  <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
